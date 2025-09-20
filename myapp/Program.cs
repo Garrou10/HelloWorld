@@ -7,7 +7,6 @@ class Program
         Console.Write("Skriv ditt namn: ");
         string name = Console.ReadLine();
 
-        // Validering för VG
         if (string.IsNullOrWhiteSpace(name))
         {
             Console.WriteLine("Du måste skriva in ett namn!");
